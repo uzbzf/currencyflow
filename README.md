@@ -23,6 +23,14 @@ npm run build
 npm run preview
 ```
 
+## Ссылки
+
+- GitHub: https://github.com/uzbzf/currencyflow
+- Vercel: https://currencyflow-gold.vercel.app
+
 ## Деплой
 
-Проект готов к публикации на Vercel (`npm run build` → `dist`).
+```bash
+npm run build
+npx vercel --prod
+```
